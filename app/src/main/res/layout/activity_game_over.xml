@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".GameOverActivity">
+
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameOverButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="329dp"
+        android:gravity="center_horizontal"
+        android:text="HighScore"
+        android:textAlignment="center"
+        android:textColor="#ECE2E7"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/GameOverTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center_horizontal"
+
+
+        android:text="Game Over"
+        android:textAlignment="center"
+        android:textColor="#121111"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gameOverButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GameOverTxtView"
+        android:layout_centerHorizontal="true"
+        android:background="#7A3F3F"
+
+        android:text="Play Again"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameOverButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="256dp"
+        android:gravity="center_horizontal"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textColor="#F3EFF1"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
